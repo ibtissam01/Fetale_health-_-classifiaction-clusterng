@@ -97,7 +97,8 @@ st.pyplot(fig)
 
 st.title("Classification")
 # Charge les modèles
-model_names = ['KNN', 'Arbre de décision', 'Régression logistique', 'Forêt aléatoire', 'SVM', 'Naive Bayes']
+#['KNN', 'Arbre de décision', 'Régression logistique', 'Forêt aléatoire', 'SVM', 'Naive Bayes']"
+model_names = ['KNN', 'Arbre de décision']
 models = {}
 for model_name in model_names:
     with open(model_name + '.pkl', 'rb') as file:
