@@ -10,9 +10,9 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 #----------------------------------------------------------------------------------------------------
 # Ajouter une image
-from PIL import Image
-image = Image.open('esi_icone.png')
-st.image(image, caption='ESI', use_column_width=True,width=50)
+#from PIL import Image
+#image = Image.open('esi_icone.png')
+#st.image(image, caption='ESI', use_column_width=True,width=50)
 #----------------------------------------------------------------------------------------------------
 
 # Ajouter des icônes d'auteurs avec leur nom
