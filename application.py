@@ -16,7 +16,7 @@ import seaborn as sns
 #----------------------------------------------------------------------------------------------------
 
 # Ajouter des icônes d'auteurs avec leur nom
-st.write('## Auteurs')
+''' st.write('## Auteurs')
 st.write('Créer Par :')
 with st.container():
     col1, col2, col3 = st.columns(3)
@@ -32,7 +32,7 @@ with st.container():
         image_author3 = Image.open('icons8_user.ico')
         st.image(image_author3, width=50)
         st.write('Ibtissam Labyady')
-
+'''
 #----------------------------------------------------------------------------------------------------
 def plot_confusion_matrix(y_test,y_pred, cmap):
     classes=['class 1', 'class 2','class 3']
