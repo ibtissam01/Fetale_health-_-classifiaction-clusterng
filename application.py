@@ -76,14 +76,14 @@ with st.container():
     # Affichage du DataFrame
     st.dataframe(data, width=700, height=400)
 #----------------------------------------------------------------------------------------------------
-# Créez votre plot avec Matplotlib
+'''# Créez votre plot avec Matplotlib
 fig, ax = plt.subplots(figsize=(20, 15))
 data.hist(ax=ax)
 ax.set_title('Histogramme des colonnes')
 
 # Affichez votre plot avec Streamlit
-st.pyplot(fig)
-#----------------------------------------------------------------------------------------------------
+st.pyplot(fig)'''
+#---------------------------------------------------------------------------------------------------
 # Matrice de corrélation
 corr = data.corr(method = "spearman")
 # Afficher la carte de chaleur
